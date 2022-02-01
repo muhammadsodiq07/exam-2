@@ -1001,3 +1001,49 @@ body::-webkit-scrollbar-thumb {
   font-size: 28px;
   color: var(--hover);
 }
+
+
+
+.fixed-div{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  display: inline-block;
+  right: 0;
+  bottom: 200px;
+  z-index: 20;
+}
+.fixed-div__text{
+  font-size: 16px;
+  color: #000;
+  padding: 8px;
+  background-color: #fff;
+}
+.fixed-div__text::before{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image:url('../img/bx-layer.svg') ;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}
+.fixed-div2{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  display: inline-block;
+  right: 0;
+  bottom: 150px;
+  z-index: 20;
+}
+.fixed-div2__text{
+  font-size: 16px;
+  color: #fff;
+  padding: 15px 25px 10px 43px;
+  background-color: #000;
+}
+
+
+
