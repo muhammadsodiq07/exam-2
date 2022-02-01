@@ -617,8 +617,11 @@ body::-webkit-scrollbar-thumb {
   height: 60px;
   border-radius: 50%;
   background-color: var(--color);
+  transition: all 0.5s ease;
 }
-
+.video__play:hover {
+  background: yellow;
+}
 .video__name {
   position: absolute;
   right: 0;
