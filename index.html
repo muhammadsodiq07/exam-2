@@ -6,12 +6,486 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header id="header">
+    <div class="container">
+      <div class="header row middle between">
+        <div class="header__logo">
+          <a href="#">
+            <img class="header__img" src="https://litho.themezaa.com/wp-content/uploads/2021/01/logo-parrot-green.png"
+              alt="">
+          </a>
+        </div>
+        <ul class="header__list row middle">
+          <li class="header__item">
+            <a class="header__link" href="tel:+44 123 456 7890">CALL US +44 123 456 7890
+            </a>
+          </li>
+          <li class="header__item">
+            <button class="header__btn" id="openModal">
+              <i class='bx bx-menu-alt-right modal__button'></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero__div">
+        <div class="hero__picture">
+          <div class="hero__span row middle">
+            <span class="hero__number">01</span>
+            <div class="hero__name">
+              <h2 class="hero__title">De wendell <br> burnette</h2>
+              <a class="hero__link" href="#">explore project</a>
+            </div>
+          </div>
+          <div class="hero__icons">
+            <i class='hero__arrow bx bx-right-arrow-alt'></i>
+            <i class='hero__arrow bx bx-left-arrow-alt'></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <main id="main">
+    <section class="architectural">
+      <div class="container">
+        <div class="working">
+          <ul class="worling__list row evenly middle">
+            <li class="working__item working__item-border row middle">
+              <div class="working__year-left">
+                <b class="working__num working__num-abs">28</b>
+              </div>
+              <div class="working__year-right">
+                <p class="working__year working__year-absalut">Years experience working</p>
+              </div>
+
+            </li>
+            <li class="working__item">
+              <span class="working__span">SINCE 1992</span>
+              <p class="working__year working__year-since">An architectural company based in United kingdom
+              </p>
+            </li>
+            <li class="working__item">
+              <p class="working__year working__year-lorem">Lorem ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem ipsum has been standard dummy text ever since ipsum been the industry lorem
+                ipsum has been lorem ipsums dolor.</p>
+              <a class="workling__link" href="#">ABOUT COMPANY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="desing">
+      <div class="container">
+        <ul class="card__list row middle evenly">
+          <li class="card__item">
+            <div class="card__imgbox">
+              <img class="card__img" src="img/card-1.jpg" alt="Architecture">
+            </div>
+            <h2 class="card__title">Architecture
+              design</h2>
+            <span class="card__btn"><i class='bx bx-arrow-back bx-flip-horizontal icon-right'></i></span>
+            <div class="card__box">
+              <p class="card__desc">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+              <a class="card__link row middle" href="#">SEE PORTFOLIO
+                <i class='bx bx-arrow-back bx-flip-horizontal icon-right-link'></i></a>
+            </div>
+          </li>
+          <li class="card__item">
+            <div class="card__imgbox">
+              <img class="card__img" src="img/card-2.jpg" alt="Architecture">
+            </div>
+            <h2 class="card__title">Architecture
+              design</h2>
+            <span class="card__btn"><i class='bx bx-arrow-back bx-flip-horizontal icon-right'></i></span>
+            <div class="card__box">
+              <p class="card__desc">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+              <a class="card__link row middle" href="#">SEE PORTFOLIO
+                <i class='bx bx-arrow-back bx-flip-horizontal icon-right-link'></i></a>
+            </div>
+          </li>
+          <li class="card__item">
+            <div class="card__imgbox">
+              <img class="card__img" src="img/card-3.jpg" alt="Architecture">
+            </div>
+            <h2 class="card__title">Architecture
+              design</h2>
+            <span class="card__btn"><i class='bx bx-arrow-back bx-flip-horizontal icon-right'></i></span>
+            <div class="card__box">
+              <p class="card__desc">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+              <a class="card__link row middle" href="#">SEE PORTFOLIO
+                <i class='bx bx-arrow-back bx-flip-horizontal icon-right-link'></i></a>
+            </div>
+          </li>
+          <li class="card__item">
+            <div class="card__imgbox">
+              <img class="card__img" src="img/card-4.jpg" alt="Architecture">
+            </div>
+            <h2 class="card__title">Architecture
+              design</h2>
+            <span class="card__btn"><i class='bx bx-arrow-back bx-flip-horizontal icon-right'></i></span>
+            <div class="card__box">
+              <p class="card__desc">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+              <a class="card__link row middle" href="#">SEE PORTFOLIO
+                <i class='bx bx-arrow-back bx-flip-horizontal icon-right-link'></i></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="mangent">
+      <div class="mangent__main">
+        <div class="container">
+          <div class="mangent__entry row middle evenly">
+            <div class="mangent__sub">
+              <h3 class="mangent__title">We are passionate knowing that people work, play and inhabit the spaces and
+                places.</h3>
+            </div>
+            <ul class="mangent__list">
+              <span class="mangent__heading">owner managed</span>
+              <li>
+                <p class="mangent__text">Lorem ipsum is simply dummy text of the printing and lorem ipsum has been.</p>
+              </li>
+            </ul>
+            <ul class="mangent__list">
+              <span class="mangent__heading">expect creativity</span>
+              <li>
+                <p class="mangent__text">Lorem ipsum is simply dummy text of the printing and lorem ipsum has been.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="house">
+      <div class="container">
+        <div class="video">
+          <div class="video__div">
+            <a href="https://youtu.be/LaWUZA24BNU">
+              <img class="video__play" src="img/icon-youtube.svg" alt="" width="50" height="50">
+            </a>
+          </div>
+          <div class="video__name">
+            <h2 class="video__title">
+              We are the leader in <br> the <span class="video__span">architectural</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="company">
+      <div class="container">
+        <div class="parters">
+          <ul class="parters__list row middle between">
+            <li class="parters__item">
+              <a class="parters__link" href="#">
+                <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-40.png" alt="">
+              </a>
+            </li>
+            <li class="parters__item">
+              <a class="parters__link" href="#">
+                <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-41.png" alt="">
+              </a>
+            </li>
+            <li class="parters__item">
+              <a class="parters__link" href="#">
+                <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-42.png" alt="">
+              </a>
+            </li>
+            <li class="parters__item">
+              <a class="parters__link" href="#">
+                <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/company-logo-43.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="select">
+      <div class="container">
+
+        <div class="select__card row center">
+          <div class="hr"></div>
+          <h3 class="select__name">SELECTED WORK</h3>
+          <div class="hrt"></div>
+          <div class="select__card-item">
+            <div class="select__card-img">
+              <img src="img/design_card1.jpg" alt="card" width="270" height="345">
+
+              <div class="select__background-yellow">
+              </div>
+
+              <a class="select__card-centre" href="#"><i class='select__link-play bx bx-right-arrow-alt'
+                  style='color:#0c0c0c'></i></a>
+            </div>
+            <h3 class="select__title">Cultural centre</h3>
+            <p class="select__text">LANDSCAPE</p>
+          </div>
+
+          <div class="select__card-item">
+            <div class="select__card-img">
+              <img src="img/design_card2.jpg" alt="card" width="270" height="345">
+
+              <div class="select__background-yellow">
+              </div>
+
+              <a class="select__card-centre" href="#"><i class='select__link-play bx bx-right-arrow-alt'
+                  style='color:#0c0c0c'></i></a>
+            </div>
+            <h3 class="select__title">Cultural centre</h3>
+            <p class="select__text">LANDSCAPE</p>
+          </div>
+
+          <div class="select__card-item">
+            <div class="select__card-img">
+              <img src="img/design_card3.jpg" alt="card" width="270" height="345">
+
+              <div class="select__background-yellow">
+              </div>
+
+              <a class="select__card-centre" href="#"><i class='select__link-play bx bx-right-arrow-alt'
+                  style='color:#0c0c0c'></i></a>
+            </div>
+            <h3 class="select__title">Cultural centre</h3>
+            <p class="select__text">LANDSCAPE</p>
+          </div>
+
+          <div class="select__card-item">
+            <div class="select__card-img">
+              <img src="img/design_card4.jpg" alt="card" width="270" height="345">
+
+              <div class="select__background-yellow">
+              </div>
+
+              <a class="select__card-centre" href="#"><i class='select__link-play bx bx-right-arrow-alt'
+                  style='color:#0c0c0c'></i></a>
+            </div>
+            <h3 class="select__title">Cultural centre</h3>
+            <p class="select__text">LANDSCAPE</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="offices">
+      <div class="container">
+        <div class="map row middle between">
+          <div class="map__img">
+            <a href="#">
+              <img class="map__pic" src="https://litho.themezaa.com/wp-content/uploads/2020/06/architecture-img-15.png"
+                alt="" width="460" height="260">
+              <h2 class="map__wor">world</h2>
+            </a>
+          </div>
+          <div class="map__name">
+            <p class="map__title">
+              We have offices all around the world
+            </p>
+            <p class="map__p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, temporibus animi magnam debitis nesciunt
+              molestias fugiat autem sed voluptatum distinctio!
+            </p>
+            <a class="map__link" href="#">GET IN TOUCH</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="blogs" class="projects">
+      <div class="container">
+        <div class="projects__main">
+          <div class="projects__sub row middle center">
+            <div class="hr"></div>
+            <h3 class="projects__name">latest blogs</h3>
+            <div class="hrt"></div>
+          </div>
+          <div class="row middle between">
+            <div class="projects__entry">
+              <div class="projects__img">
+                <a href="#">
+                  <img class="projects__ims"
+                    src="https://litho.themezaa.com/wp-content/webp-express/webp-images/uploads/2021/02/architecture-img-28.jpg.webp"
+                    alt="blog-img" width="304" height="304">
+                </a>
+              </div>
+              <div class="projects__info">
+                <a class="projects__link" href="#">creative</a>
+                <span class="projects__date">13 february 2021</span>
+                <h4 class="projects__title">Bad design is smoke, while good design is a mirror</h4>
+              </div>
+            </div>
+            <div class="projects__entry">
+              <div class="projects__img">
+                <a href="#">
+                  <img class="projects__ims"
+                    src="https://litho.themezaa.com/wp-content/webp-express/webp-images/uploads/2021/02/architecture-img-25.jpg.webp"
+                    alt="blog-img" width="304" height="304">
+                </a>
+              </div>
+              <div class="projects__info">
+                <a class="projects__link" href="#">creative</a>
+                <span class="projects__date">13 february 2021</span>
+                <h4 class="projects__title">Bad design is smoke, while good design is a mirror</h4>
+              </div>
+            </div>
+            <div class="projects__entry">
+              <div class="projects__img">
+                <a href="#">
+                  <img class="projects__ims"
+                    src="https://litho.themezaa.com/wp-content/webp-express/webp-images/uploads/2021/02/architecture-img-27.jpg.webp"
+                    alt="blog-img" width="304" height="304">
+                </a>
+              </div>
+              <div class="projects__info">
+                <a class="projects__link" href="#">creative</a>
+                <span class="projects__date">13 february 2021</span>
+                <h4 class="projects__title">Bad design is smoke, while good design is a mirror</h4>
+              </div>
+            </div>
+            <div class="projects__entry">
+              <div class="projects__img">
+                <a href="#">
+                  <img class="projects__ims"
+                    src="https://litho.themezaa.com/wp-content/webp-express/webp-images/uploads/2020/07/architecture-img-26.jpg.webp"
+                    alt="blog-img" width="304" height="304">
+                </a>
+              </div>
+              <div class="projects__info">
+                <a class="projects__link" href="#">creative</a>
+                <span class="projects__date">13 february 2021</span>
+                <h4 class="projects__title">Bad design is smoke, while good design is a mirror</h4>
+              </div>
+            </div>
+          </div>
+          <div class="projects__pro row middle center">
+            <span class="projects__ready">are you ready to work with us?</span>
+            <a class="projects__project" href="#">start a project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo row middle between">
+        <div class="footer__img">
+          <a href="#">
+            <img src="https://litho.themezaa.com/wp-content/uploads/2021/01/logo-parrot-green.png" alt="">
+          </a>
+        </div>
+        <div class="footer__info">
+          <p class="footer__text">+1 234 567 8910•27 EDEN WALK EDEN CENTRE, PARIS,<br>
+            FRANCE•INFO@YOURDOMAIN.COM</p>
+        </div>
+        <div class="footer__icons">
+          <a class="footer__link" href="#">
+            <i class='bx bxl-facebook footer__icon'></i>
+          </a>
+          <a class="footer__link" href="#">
+            <i class='bx bxl-linkedin footer__icon'></i>
+          </a>
+          <a class="footer__link" href="#">
+            <i class='bx bxl-instagram footer__icon'></i>
+          </a>
+          <a class="footer__link" href="#">
+            <i class='bx bxl-twitter footer__icon'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixsed">
+    <div class="fixsed__div">
+      <a class="fixsed__link" href="#">
+        <i class='bx bx-up-arrow-alt uppp'></i>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- modal -->
+  <div class="header-sitemodal">
+    <div class="modal" id="show">
+      <img class="modal__img" src="img/menu-img.jpg" alt="modalimg">
+      <ul class="modal__list">
+        <li class="modal__item">
+          <a class="modal__link" href="#">home</a>
+        </li>
+        <li class="modal__item">
+          <a class="modal__link" href="#">about</a>
+        </li>
+        <li class="modal__item">
+          <a class="modal__link" href="#">services</a>
+        </li>
+        <li class="modal__item">
+          <a class="modal__link" href="#">portfolio</a>
+        </li>
+        <li class="modal__item">
+          <a class="modal__link" href="#">services</a>
+        </li>
+        <li class="modal__item">
+          <a class="modal__link" href="#">portfolio</a>
+        </li>
+      </ul>
+      <i class='bx bx-x modal__x' id="close-btn"></i>
+      <ul class="modal__icons icons">
+        <li class="icons__item">
+          <a class="icons__link row middle" href="#">
+            <i class='bx bxl-facebook modal-icons'></i>
+            facebook
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link row middle" href="#">
+            <i class='bx bxl-twitter modal-icons'></i>
+            twitter
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link row middle" href="#">
+            <i class='bx bxl-instagram modal-icons'></i>
+            instagram
+          </a>
+        </li>
+        <li class="icons__item">
+          <a class="icons__link row middle" href="#">
+            <i class='bx bxl-linkedin modal-icons'></i>
+            linkedin
+          </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
